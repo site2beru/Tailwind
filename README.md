@@ -1,2 +1,2 @@
 # Car-landing
-Landing page templat
+Landing page template
