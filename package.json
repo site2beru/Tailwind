@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "taiwind demo",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/site2beru/Tailwind.git"
+  },
+  "author": "Pavel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/site2beru/Tailwind/issues"
+  },
+  "homepage": "https://github.com/site2beru/Tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
