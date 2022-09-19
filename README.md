@@ -1,2 +1,2 @@
-# Car-landing
-Landing page template
+# Tailwind
+Tailwind page template
