@@ -24,10 +24,11 @@ div {
 
 .hero-wrapper {
     background-image: url('../img/bg.jpg');
+    padding-bottom: 100px;
 }
 
 .hero {
-    height: 814px;
+    /* height: 814px; */
     width: 100%;
 }
 
@@ -55,29 +56,46 @@ div {
     border-bottom: 2px dashed #3d2514;
 }
 
+.topnav-mobile {
+    background-color: #3d2514;
+    height: 60px;
+}
+
 .promo__image {
     /* background: url('../img/burger.png') no-repeat center;
     height: 720px; */
     /* width: 50%; */
 }
 
+.burger {
+    position: relative;
+}
+
+.price {
+    bottom: -30px;
+    left: 0;
+    position: absolute;
+}
+
 .promo__text {
     padding: 5% 0;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .promo__text-sub {
-    /* border: 1px dashed #3d2514; */
+    border: 1px dashed #3d2514;
     color: #3d2514;
     font-size: 2.3em;
     font-family: 'Bebas Neue', cursive;
-    padding: 4px;
+    padding: 8px;
+    margin-bottom: 15px;
+    display: inline-block;
     text-transform: uppercase;
 }
 
 .promo__text-slogan {
     color: #3d2514;
-    font-size: 12em;
+    /* font-size: 12em; */
     font-family: 'Alfa Slab One', cursive;
     text-shadow: 4px 4px #fff;
     text-transform: uppercase;
