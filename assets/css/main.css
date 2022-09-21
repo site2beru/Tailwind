@@ -47,17 +47,27 @@ div {
     color: #3d2514;
     font-size: 2em;
     font-weight: 500;
+    padding-bottom: 2px;
     text-transform: uppercase;
+}
+
+.topnav ul li a:hover {
+    border-bottom: 2px dashed #3d2514;
 }
 
 .promo__image {
     /* background: url('../img/burger.png') no-repeat center;
     height: 720px; */
+    /* width: 50%; */
+}
+
+.promo__text {
+    padding: 5% 0;
     width: 50%;
 }
 
 .promo__text-sub {
-    border: 1px dashed #3d2514;
+    /* border: 1px dashed #3d2514; */
     color: #3d2514;
     font-size: 2.3em;
     font-family: 'Bebas Neue', cursive;
@@ -69,5 +79,6 @@ div {
     color: #3d2514;
     font-size: 12em;
     font-family: 'Alfa Slab One', cursive;
+    text-shadow: 4px 4px #fff;
     text-transform: uppercase;
 }

@@ -17,17 +17,17 @@
 <body>
     <div class="wrapper hero-wrapper container-fluid">
         <div class="hero container mx-auto">
-            <header class="top flex justify-between pt-12">
+            <header class="top flex justify-between pt-12 flex-col md:flex-row">
                 <div class="top__logo"><img src="assets/img/logo_03.png" alt=""></div>
                 <div class="top__tel">
                     <img src="assets/img/delivery.png" alt=""> Express Delivery +1 234 567 890</div>
             </header>
-            <nav class="topnav mt-6">
+            <nav class="topnav mt-6 invisible sm:visible">
                 <ul class="flex justify-around">
-                    <li>Home</li>
-                    <li>Menu</li>
-                    <li>Our story</li>
-                    <li>Contact</li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Our story</a></li>
+                    <li><a href="">Contact us</a></li>
                 </ul>
             </nav>
             <div class="promo flex justify-between mt-10">
@@ -39,12 +39,23 @@
                         Burger week
                     </h1>
                 </div>
-                <div class="promo__image">
+                <div class="promo__image invisible md:visible">
                     <img src="assets/img/burger.png" alt="spec">
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container md:container-xl mx-auto flex-col md:flex-row flex justify-around my-20">
+        <div class="special__left">
+            <img src="assets/img/burger1.jpg" alt="">
+        </div>
+        <div class="special__right flex flex-col justify-between">
+            <img src="assets/img/brger2.jpg" alt="">
+            <img src="assets/img/burger3.jpg" alt="">
+        </div>
+    </div>
+
     <script src="assets/js/defaultConfig.stub.js" async></script>
 </body>
 
