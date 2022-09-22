@@ -242,7 +242,7 @@ h2 {
     background: url(../img/bg1.jpg) no-repeat;
     height: 100vh;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .form__container {
@@ -264,4 +264,72 @@ h2 {
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     margin: 5px 0 15px;
+}
+
+.form__area {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+form {
+    width: 70%;
+    margin: 80px auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+input[type="text"] {
+    border: 1px solid #bebebe;
+    margin: 10px;
+    /* width: 45%; */
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.btn-form {
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+    width: 45%;
+}
+
+footer {
+    background: url(../img/footer.jpg) no-repeat;
+    padding: 80px 40px;
+    margin-bottom: 40px;
+}
+
+.footer__logo {
+    text-align: left;
+    width: 50%;
+}
+
+.footer__logo p,
+.copy,
+.social {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.footer__address {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    line-height: 2;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer__address img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer__copy {
+    margin-top: 70px;
 }
