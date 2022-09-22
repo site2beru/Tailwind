@@ -21,6 +21,7 @@ body {
 div {
     /* border: 1px solid red; */
 }
+
 p {
     color: #3d2514;
     font-family: 'Montserrat', sans-serif;
@@ -96,6 +97,29 @@ h2 {
     /* height: 174px;
     width: 174px; */
 }
+
+.special__left {
+    position: relative;
+}
+
+.left__desc {
+    color: #fff;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    text-transform: uppercase;
+}
+
+.left__desc span {
+    font-size: 2em;
+}
+
+.left__desc p {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
 
 /* .price {
     background-color: #bf2222;
@@ -182,4 +206,62 @@ h2 {
     text-align-last: center;
     text-transform: uppercase;
     margin-top: 40px;
+}
+
+.slider {
+    box-shadow: 4px 6px 16px #c0c0c0;
+}
+
+.slider__desc {
+    padding-right: 30px;
+}
+
+.slider span {
+    color: #3d2514;
+    display: inline-block;
+    font-size: 3.5em;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin: 20px 0 5px;
+}
+
+.slider h4 {
+    color: #3d2514;
+    font-size: 4.5em;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    margin: 5px 0 15px;
+}
+
+.slider p {
+    color: #3d2514;
+    font-size: 2em;
+}
+
+.form {
+    background: url(../img/bg1.jpg) no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+}
+
+.form__container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.form h2 {
+    color: #3d2514;
+    font-size: 4.5em;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    margin: 5px 0 15px;
+}
+
+.form h3 {
+    color: #3d2514;
+    font-size: 2.5em;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    margin: 5px 0 15px;
 }
