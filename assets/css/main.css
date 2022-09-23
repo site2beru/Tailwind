@@ -240,7 +240,7 @@ h2 {
 
 .form {
     background: url(../img/bg1.jpg) no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
     background-position: center;
     background-size: cover;
 }
