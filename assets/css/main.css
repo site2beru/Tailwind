@@ -75,11 +75,6 @@ h2 {
     border-bottom: 2px dashed #3d2514;
 }
 
-.topnav-mobile {
-    background-color: #3d2514;
-    height: 60px;
-}
-
 .promo__image {
     /* background: url('../img/burger.png') no-repeat center;
     height: 720px; */
@@ -332,4 +327,41 @@ footer {
 
 .footer__copy {
     margin-top: 70px;
+}
+
+/* Mobile menu */
+
+.topnav-mobile {
+    align-items: center;
+    background-color: #3d2514;
+    color: #fff;
+    display: flex;
+    height: 60px;
+    position: relative;
+}
+
+.mobile__button {
+    background: url(../img/menu.png) no-repeat;
+    background-size: cover;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 80%;
+    margin: 0 0 0 10px;
+    width: 10%;
+}
+
+.mobile__list {
+    background-color: #3d2514;
+    bottom: -150px;
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+    position: absolute;
+    transition: bottom 2s ease-in-out;
+    width: 100%;
+    font-size: 2em;
+}
+
+.closed {
+    display: none !important;
 }
