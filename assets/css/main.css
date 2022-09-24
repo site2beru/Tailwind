@@ -388,9 +388,9 @@ footer {
     position: relative;
     display: flex;
     max-width: 600px;
-    background-color: chocolate;
+    background-color:darkgoldenrod;
     margin: auto;
-    padding: 30px;
+    padding: 10px;
     cursor: default;
     padding: 30px;
 
@@ -400,7 +400,7 @@ footer {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 3em;
     position: relative;
     top: 10px;
     right: 10px;
