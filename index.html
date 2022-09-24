@@ -30,8 +30,8 @@ Author: Pavel Uspensky dormires@gmail.com -->
                 <ul class="flex justify-around">
                     <li><a href="">Home</a></li>
                     <li><a href="#menu">Menu</a></li>
-                    <li><a href="">Our story</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <li><a href="#promo">Our story</a></li>
+                    <li><a href="#contact">Contact us</a></li>
                 </ul>
             </nav>
             <nav class="topnav-mobile mt-6 sm:hidden">
@@ -80,7 +80,7 @@ Author: Pavel Uspensky dormires@gmail.com -->
             </div>
         </div>
         <div class="button container mx-auto text-center">
-            <button class="btn-amber bg-amber-500">Always tasty burger</button>
+            <button class="btn-amber bg-amber-500 over openBtn">Always tasty burger</button>
         </div>
     </div>
 
@@ -93,27 +93,27 @@ Author: Pavel Uspensky dormires@gmail.com -->
                 <div class="promo__burger-item">
                     <img src="assets/img/bur1.png" alt="">
                     <div class="promo__burger-item-desc">
-                        <h3>Lorem ipsum dolor</h3>
+                        <h3>Big and tasty</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        <button class="btn-red">Order now</button>
+                        <button class="btn-red openBtn openBtn1">Order now</button>
                     </div>
                 </div>
 
                 <div class="promo__burger-item">
                     <img src="assets/img/bur2.png" alt="">
                     <div class="promo__burger-item-desc">
-                        <h3>Lorem ipsum dolor</h3>
+                        <h3>Vegan's tears</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        <button class="btn-red">Order now</button>
+                        <button class="btn-red openBtn openBtn2">Order now</button>
                     </div>
                 </div>
 
                 <div class="promo__burger-item">
                     <img src="assets/img/bur1.png" alt="">
                     <div class="promo__burger-item-desc">
-                        <h3>Lorem ipsum dolor</h3>
+                        <h3>Chicken monster</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        <button class="btn-red">Order now</button>
+                        <button class="btn-red openBtn openBtn3">Order now</button>
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@ Author: Pavel Uspensky dormires@gmail.com -->
         </div>
     </div>
 
-    <div class="wrapper container-fluid px-4 md:px-0">
+    <div id="promo" class="wrapper container-fluid px-4 md:px-0">
         <div class="slider mx-auto container justify-between gap-10 flex flex-col xl:flex-row my-12 p-8">
             <div class="slider__desc sm:max-w-xl max-w-full">
                 <span>Discover</span>
@@ -153,7 +153,7 @@ Author: Pavel Uspensky dormires@gmail.com -->
         </div>
     </div>
 
-    <div class="wrapper container-fluid px-4 md:px-0">
+    <div id="contact" class="wrapper container-fluid px-4 md:px-0">
     <footer class="container mx-auto flex flex-col text-center mt-20">
         <div class="footer__top flex flex-col md:flex-row justify-between">
             <div class="footer__logo">
@@ -170,6 +170,62 @@ Author: Pavel Uspensky dormires@gmail.com -->
             <div class="social">vk</div>
         </div>
     </footer>
+    </div>
+
+        <!-- Modal boxes -->
+
+    <div class="overlay__page modal modal1">
+        <div class="container mx-auto modal__box">
+            <div class="close"><button class="modal__close">&#10006</button></div> 
+            <div id="promo" class="wrapper container-fluid px-4 md:px-0">
+                <div class="slider shadow-none mx-auto container justify-between gap-10 flex flex-col xl:flex-row my-12 p-8">
+                    <div class="slider__desc sm:max-w-xl max-w-full">
+                        <h2>Big and tasty</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="slider__image">
+                        <img src="assets/img/bur1.png" alt="promo">
+                    </div>
+                </div>
+            </div>
+                           </div>
+    </div>
+    
+    <div class="overlay__page modal modal2">
+        <div class="container mx-auto modal__box">
+            <div class="close"><button class="modal__close">&#10006</button></div>            
+            <div id="promo" class="wrapper container-fluid px-4 md:px-0">
+                <div class="slider shadow-none mx-auto container justify-between gap-10 flex flex-col xl:flex-row my-12 p-8">
+                    <div class="slider__desc sm:max-w-xl max-w-full">
+                        <h2>Vegan's tears</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="slider__image">
+                        <img src="assets/img/bur2.png" alt="promo">
+                    </div>
+                </div>
+            </div>
+                           </div>
+    </div>
+    
+    <div class="overlay__page modal modal3">
+        <div class="container mx-auto modal__box">
+            <div class="close"><button class="modal__close">&#10006</button></div>
+            <div id="promo" class="wrapper container-fluid px-4 md:px-0">
+                <div class="slider shadow-none mx-auto container justify-between gap-10 flex flex-col xl:flex-row my-12 p-8">
+                    <div class="slider__desc sm:max-w-xl max-w-full">
+                        <h2>Chicken moster</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="slider__image">
+                        <img src="assets/img/bur1.png" alt="promo">
+                    </div>
+                </div>
+            </div>
+                    </div>
     </div>
 
     <script src="assets/js/defaultConfig.stub.js" async></script>

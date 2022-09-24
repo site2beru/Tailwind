@@ -16,6 +16,7 @@ body {
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Montserrat', sans-serif;
+    position: relative !important;
 }
 
 div {
@@ -365,3 +366,71 @@ footer {
 .closed {
     display: none !important;
 }
+
+/* Overlay */
+
+.green {
+    background-color: green;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .4);
+    cursor: pointer;
+    display: none;
+    overflow-y: auto;
+    padding: 20px;
+    z-index: 999;
+}
+
+.modal__box {
+    position: relative;
+    display: flex;
+    max-width: 600px;
+    background-color: chocolate;
+    margin: auto;
+    padding: 30px;
+    cursor: default;
+    padding: 30px;
+
+}
+
+.modal__close {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* .overlay__page {
+    background-color:darkorange;
+    height: 60%;
+    left:50%;
+    top:50%;
+    padding: 35px;
+    position: fixed !important;
+    overflow: hidden;
+    width: 70%;
+    z-index: 999;
+    transform:translate(-50%,-50%);
+} */
+
+/* .close {
+    color: 333;
+    cursor: pointer;
+    font-size: 1.9em;
+    float: right;
+    padding: 5px 15px;
+} */
